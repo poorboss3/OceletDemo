@@ -1,0 +1,60 @@
+{
+  "ReRoutes": [
+    {
+      "DownstreamPathTemplate": "/api/Potato",
+      "UpstreamPathTemplate": "/api/Food/Potato",
+      "UpstreamHttpMethod": [
+        "Get"
+      ],
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 63874
+        }
+      ],
+      "key": "Potato"
+    },
+    {
+      "DownstreamPathTemplate": "/api/Food/Potato/{id}",
+      "UpstreamPathTemplate": "/api/Potato/{id}",
+      "UpstreamHttpMethod": [
+        "Get"
+      ],
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 63874
+        }
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/weatherforecast",
+      "UpstreamPathTemplate": "/api/Cooker/weatherforecast",
+      "UpstreamHttpMethod": [
+        "Get"
+      ],
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 63882
+        }
+      ],
+      "key": "Weather"
+    }
+  ],
+  "Aggregates": [
+    {
+      "ReRouteKeys": [
+        "Potato",
+        "Weather"
+      ],
+      "UpstreamPathTemplate": "/api/Aggregates/WeatherAndPotato"
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "http://localhost:63183"
+  }
+}

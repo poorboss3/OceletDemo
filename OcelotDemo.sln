@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29721.120
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OcelotGateway", "OcelotGateway\OcelotGateway.csproj", "{993796BA-DF61-471E-8961-64D6EF2C1796}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodApi", "FoodApi\FoodApi.csproj", "{3B2606E8-187E-4EC7-8132-F9F4512068D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CookerApi", "CookerApi\CookerApi.csproj", "{1CF6669C-749A-4FA2-9531-C0DD1159F762}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{993796BA-DF61-471E-8961-64D6EF2C1796}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{993796BA-DF61-471E-8961-64D6EF2C1796}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{993796BA-DF61-471E-8961-64D6EF2C1796}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{993796BA-DF61-471E-8961-64D6EF2C1796}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B2606E8-187E-4EC7-8132-F9F4512068D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B2606E8-187E-4EC7-8132-F9F4512068D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B2606E8-187E-4EC7-8132-F9F4512068D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B2606E8-187E-4EC7-8132-F9F4512068D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CF6669C-749A-4FA2-9531-C0DD1159F762}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CF6669C-749A-4FA2-9531-C0DD1159F762}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CF6669C-749A-4FA2-9531-C0DD1159F762}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CF6669C-749A-4FA2-9531-C0DD1159F762}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1BB99535-7AEC-4428-8C54-038F666E6CFD}
+	EndGlobalSection
+EndGlobal
