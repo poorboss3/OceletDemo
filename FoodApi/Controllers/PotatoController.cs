@@ -27,7 +27,7 @@ namespace FoodApi.Controllers
         [HttpGet("{id}")]
         public ActionResult<FoodModel> Get(int id)
         {
-            return new PotatoModel { Amount = id, Name = "potato", Weight = new Random().Next(1, 10) };
+            return new PotatoModel { Amount = id, Name = "Mypotato", Weight = new Random().Next(1, 10) };
         }
 
         // POST api/values
